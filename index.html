@@ -206,7 +206,7 @@
             <p class="mt-2 text-lg md:text-xl text-[var(--muted)]"><span id="typed-text"></span></p>
             <p class="mt-4 text-[var(--muted)] max-w-2xl mx-auto md:mx-0">MS in <span class="font-semibold text-white">Robotics & Autonomous Systems (AI)</span> at Arizona State University. B.Tech in <span class="font-semibold text-white">Artificial Intelligence</span> from Amity University, Noida.</p>
             <div class="mt-6 flex flex-wrap gap-3 justify-center md:justify-start">
-              <a href="ASU_Resume_Template_Shivam.pdf" target="_blank" class="btn btn-acc"><i class="fa-solid fa-file-arrow-down"></i> Resume</a>
+             <a href="assets/ASU_Resume_Template_Shivam.pdf" target="_blank" class="btn btn-acc"><i class="fa-solid fa-file-arrow-down"></i> Resume</a>
               <a href="#projects" class="btn u"><i class="fa-solid fa-diagram-project"></i> Projects</a>
             </div>
           </div>
@@ -342,7 +342,8 @@
             <p class="text-[var(--muted)]">AI-powered <span class="text-white font-semibold">MobileNetV2</span> image classifier to detect and classify 9 animal emotion classes with real-time Tkinter popups.</p>
             <a href="https://github.com/shivam15112003/Animal-emotion-classifier.git" target="_blank" class="text-[var(--accent)] hover:underline mt-2 inline-flex items-center">
               <i class="fab fa-github mr-2"></i> GitHub
-            </a>
+            </a><a class="u" href="assets/ASU_Resume_Template_Shivam.pdf" target="_blank">Resume</a>
+
           </article>
 
           <!-- Vehicle Sleep Detection -->
@@ -472,7 +473,7 @@
   <footer class="text-[var(--muted)] py-6 text-center border-t border-[var(--line)]">
     <p>&copy; 2025 Shivam Sharma. All rights reserved.</p>
     <div class="mt-2 flex gap-4 justify-center">
-      <a class="u" href="ASU_Resume_Template_Shivam.pdf" target="_blank">Resume</a>
+      <a class="u" href="assets/ASU_Resume_Template_Shivam.pdf" target="_blank">Resume</a>
       <a class="u" href="mailto:sharmashivam15112003@gmail.com">Email</a>
       <a class="u" href="https://www.linkedin.com/in/shivam-sharma-333137202/" target="_blank">LinkedIn</a>
     </div>
@@ -599,7 +600,7 @@
         {label:'Filter: CV',  action:()=>applyFilter('CV', true)},
         {label:'Filter: NLP', action:()=>applyFilter('NLP', true)},
         {label:'Back to top', action:()=>scrollTo({top:0,behavior:'smooth'})},
-        {label:'Open Resume', action:()=>window.open('ASU_Resume_Template_Shivam.pdf','_blank')}
+        { label:'Open Resume', action:()=>window.open('assets/ASU_Resume_Template_Shivam.pdf','_blank') }
       ];
       return arr;
     }
